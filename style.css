@@ -1,0 +1,121 @@
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+	z-index: -100;
+}
+.containers>div{
+    background-color: rgb(16, 15, 14);
+    color: white;
+    font-size: larger;
+    text-align: center;
+    
+    
+}
+
+.main{
+    display: grid;
+   
+    
+}
+.containers{
+    background-color: rgba(128, 128, 128, 0.078);
+}
+
+.back{
+	background: linear-gradient(-45deg, #bb29d89a, #07ada883, #a3dbefa8, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height:100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.pos{
+	position: fixed;
+	width: 100%;
+	z-index: 200;
+}
+
+.quickList>.container{
+	font-size: 0.9rem;
+
+}
+ul{
+	list-style: none;
+    padding-left: 0%;
+}
+.butn button{
+	
+	background-color: rgb(34, 33, 33);
+	color: white;
+	padding: 0px 5px;
+	font-size: large;
+	width: 100%;
+	margin: 0%;
+
+  }
+  .butn{
+	  background-color: rgb(34, 31, 31);
+	  margin: 0%;
+	  padding: 0%;
+  }
+  .butn button:hover{
+	  background-color: #c7a64a;
+	  color: rgb(0, 0, 0);
+	  
+  }
+  
+  .end3{
+	  display:inline-block;
+	  font-size: 0.8rem;
+	  color: white;
+	  margin: 0px;
+	  padding: 0px;
+  }
+  #Copyri8{
+	  color: rgb(116, 116, 223);
+	  font-weight: 500;
+  }
+  .end2{
+	  background-color: rgb(34, 33, 33);
+   
+  }
+  .end{
+    padding: 0%;
+    margin: 0px 0px 10px 0px;
+    
+}
+.end3{
+	margin: 0px 0px;
+}
+.end3:hover{
+	color: #c7a64a;
+	font-weight: 500;
+	cursor: pointer;
+}
+.foot{
+ float: right;
+ font-family:cursive;
+ font-weight: 100;
+ font-style: italic;
+ color: #c7a64a;
+}
+.hov:hover{
+background-color:#c7a64a;
+color: black;
+cursor: pointer;
+}
+li:hover{
+  /* text-decoration: underline; */
+  list-style: circle;
+  cursor:pointer;
+}
