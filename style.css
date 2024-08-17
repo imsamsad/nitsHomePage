@@ -1,121 +1,155 @@
-.carousel-item img{
+.carousel-item img {
     height: 100%;
     width: 100%;
-	z-index: -100;
+    z-index: -100;
 }
-.containers>div{
+
+.containers > div {
     background-color: rgb(16, 15, 14);
     color: white;
     font-size: larger;
     text-align: center;
-    
-    
 }
 
-.main{
+.main {
     display: grid;
-   
-    
 }
-.containers{
+
+.containers {
     background-color: rgba(128, 128, 128, 0.078);
 }
 
-.back{
-	background: linear-gradient(-45deg, #bb29d89a, #07ada883, #a3dbefa8, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
-	height:100%;
+.back {
+    background: linear-gradient(-45deg, #bb29d89a, #07ada883, #a3dbefa8, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100%;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-.pos{
-	position: fixed;
-	width: 100%;
-	z-index: 200;
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
-.quickList>.container{
-	font-size: 0.9rem;
-
+.pos {
+    position: fixed;
+    width: 100%;
+    z-index: 200;
 }
-ul{
-	list-style: none;
+
+.quickList > .container {
+    font-size: 0.9rem;
+}
+
+ul {
+    list-style: none;
     padding-left: 0%;
 }
-.butn button{
-	
-	background-color: rgb(34, 33, 33);
-	color: white;
-	padding: 0px 5px;
-	font-size: large;
-	width: 100%;
-	margin: 0%;
 
-  }
-  .butn{
-	  background-color: rgb(34, 31, 31);
-	  margin: 0%;
-	  padding: 0%;
-  }
-  .butn button:hover{
-	  background-color: #c7a64a;
-	  color: rgb(0, 0, 0);
-	  
-  }
-  
-  .end3{
-	  display:inline-block;
-	  font-size: 0.8rem;
-	  color: white;
-	  margin: 0px;
-	  padding: 0px;
-  }
-  #Copyri8{
-	  color: rgb(116, 116, 223);
-	  font-weight: 500;
-  }
-  .end2{
-	  background-color: rgb(34, 33, 33);
-   
-  }
-  .end{
+.butn button {
+    background-color: rgb(34, 33, 33);
+    color: white;
+    padding: 0px 5px;
+    font-size: large;
+    width: 100%;
+    margin: 0%;
+}
+
+.butn {
+    background-color: rgb(34, 31, 31);
+    margin: 0%;
+    padding: 0%;
+}
+
+.butn button:hover {
+    background-color: #c7a64a;
+    color: rgb(0, 0, 0);
+}
+
+.end3 {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Copyri8 {
+    color: rgb(116, 116, 223);
+    font-weight: 500;
+}
+
+.end2 {
+    background-color: rgb(34, 33, 33);
+}
+
+.end {
     padding: 0%;
     margin: 0px 0px 10px 0px;
-    
 }
-.end3{
-	margin: 0px 0px;
+
+.end3 {
+    margin: 0px 0px;
 }
-.end3:hover{
-	color: #c7a64a;
+
+.end3:hover {
+    color: #c7a64a;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.foot {
+    float: right;
+    font-family: cursive;
+    font-weight: 100;
+    font-style: italic;
+    color: #c7a64a;
+}
+
+.hov:hover {
+    background-color: #c7a64a;
+    color: black;
+    cursor: pointer;
+}
+
+/* Remove bullet points for navbar dropdown items only */
+.navbar-nav .dropdown-menu li {
+    list-style: none;
+}
+
+/* Base style: no bullet points for Quick Links */
+.quickList ul li {
+    list-style: none;
+    padding-left: 0px; /* Adjust padding if needed */
+}
+
+/* On hover: show bullet points for Quick Links */
+.quickList ul li:hover {
+    list-style: circle;
+    padding-left: 0px; /* Keep the padding consistent */
+    color: #054098; /* Change text color on hover */
+	font-weight:500;
+    cursor: pointer;
+}
+
+/* Base style: no bullet points for academic notices */
+.academic-notices ul li {
+    list-style: none;
+    padding-left: 0px; /* Adjust padding if needed */
+}
+
+/* On hover: show bullet points for academic notices */
+.academic-notices ul li:hover {
+    list-style:circle;
+    padding-left: 0px; /* Keep the padding consistent */
+    color: #054098; /* Change text color on hover */
 	font-weight: 500;
-	cursor: pointer;
-}
-.foot{
- float: right;
- font-family:cursive;
- font-weight: 100;
- font-style: italic;
- color: #c7a64a;
-}
-.hov:hover{
-background-color:#c7a64a;
-color: black;
-cursor: pointer;
-}
-li:hover{
-  /* text-decoration: underline; */
-  list-style: circle;
-  cursor:pointer;
+    cursor: pointer;
 }
